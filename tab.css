@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+    body{
+        max-width: 768px;
+    }
+    .container{
+        width: 690px;
+        margin: auto;
+    }
+    .menu-item li{
+        margin: 0 14px;
+    }
+    .inf-container>.items > h2{
+        font-size: 1.5em;
+     }
+     .sub-button {
+        width:160px;
+    }
+    .collection-items{
+        margin: 20px 5%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+    .wild-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .wild-container .items{
+        width: 100%;
+    }
+    .wild-container .items img{
+        margin: auto;
+        height: 410px;
+        width: 738px;
+        border-radius: 10px;
+    }
+}
