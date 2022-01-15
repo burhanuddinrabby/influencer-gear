@@ -80,6 +80,10 @@ body{
 
 
 @media (max-width:480px) {
+    .container{
+        width: 440px;
+        margin: auto;
+    }
     .inf-container{
         display: flex;
         flex-direction: column-reverse;
