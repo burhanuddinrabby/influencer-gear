@@ -52,4 +52,7 @@
     .wild-container .items img{
         margin: auto;
     }
+    footer{
+        width: 100%;
+    }
 }
