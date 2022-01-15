@@ -52,6 +52,9 @@ body{
 .inf-container .items{
     width: 50%;
 }
+.inf-mr{
+    margin-right:180px;
+ }
 .inf-container>.items > h2{
     font-size: 50px;
     margin: 0;
@@ -138,7 +141,7 @@ body{
     color: #E02C6D;
 }
 
-/*  */
+/* Wildlife Photographer Section */
 
 .wild{
     margin-top: 80px;
@@ -199,18 +202,59 @@ footer ul li a{
     text-decoration: none;
     color: white;
 }
-/* @media (max-width:480px) {
+
+@media only screen and (max-width:480px) {
+    /* font family */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
+
+    /* All element */
+    body{
+        width: 100%;
+    }
     .container{
-        width: 440px;
+        width: 90%;
         margin: auto;
     }
+    /* heading */
+
     .menu-item li{
-        margin: 0 10px;
-        font-size: 1.2em;
-        font-weight: 600;
+        margin: 0 5px;
     }
+    /* ----Influencer Admit---- */
     .inf-container{
-        display: flex;
         flex-direction: column-reverse;
     }
-} */
+    .inf-container>.items > h2{
+    font-size: 1.7em;
+    }
+    /* .sub-button */
+    .sub-button {
+        width:180px;
+    }
+    .inf-container>.items img{
+        height: 90%;
+        width: 90%;
+    }
+
+
+    /* Collection section */
+    .collection-items{
+        margin: 20px 5%;
+        /*display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;*/
+    }
+    .item-container{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /*  */
+    .wild-container{
+        flex-wrap: wrap;
+    }
+    .wild-container .items img{
+        margin: auto;
+    }
+
+}
