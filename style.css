@@ -5,6 +5,7 @@
 body{
     margin: 0;
     padding: 0;
+    width: 1400px;
     font-family: 'Poppins', sans-serif;
 }
 .container{
@@ -184,7 +185,7 @@ footer{
     margin-top: 70px;
     padding: 10px;
     color: white;
-    width: 1400px;
+    width: 100%;
 }
 footer h3{
     font-size: 1.4em;
