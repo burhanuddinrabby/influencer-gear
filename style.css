@@ -108,6 +108,11 @@ body{
     border-radius: 10px;
     box-shadow: -1px 1px 20px rgba(97, 89, 89, 0.377);
 }
+.item-container:hover img{
+    transform: scale(1.01);
+    filter: contrast(110%) grayscale(20%) brightness(.85);
+    overflow: hidden;
+}
 .item-container > img{
     height: 250px;
     width: 296px;
