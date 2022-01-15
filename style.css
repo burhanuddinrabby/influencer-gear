@@ -49,6 +49,9 @@ body{
     align-items: center;
     margin-top: 50px;
 }
+.inf-container:hover img{
+    transform: rotate(45deg) scale(1.05);
+}
 .inf-container .items{
     width: 50%;
 }
