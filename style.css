@@ -1,0 +1,87 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,600&display=swap');
+
+/* All element */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.org-color{
+    color:orange;
+    font-weight: bold;
+}
+/* heading */
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.heading-container h3{
+    font-size: 1.4em;
+}
+.menu-item{
+    display: flex;
+    list-style: none;
+}
+.menu-item li{
+    margin: 0 35px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.menu-item li a{
+    text-decoration: none;
+    color: rgb(24, 22, 22);
+}
+
+/*  */
+.inf-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.inf-container .items{
+    width: 50%;
+}
+.inf-container>.items > h2{
+    font-size: 50px;
+    margin: 0;
+}
+.inf-container>.items > p {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.inf-container>.items > a {
+    background: #E02C6D;
+    color: white;
+    padding: 12px;
+    font-weight: 500;
+    width:150px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inf-container>.items img{
+    background: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80%;
+    width: 80%;
+}
+
+
+
+@media (max-width:480px) {
+    .inf-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
