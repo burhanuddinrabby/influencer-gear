@@ -10,6 +10,9 @@ body{
 .container{
     width: 1300px;
     margin: auto;
+    background: rgba(235, 224, 224, 0.2);
+    padding: 10px;
+    border-radius: 10px;
 }
 .org-color{
     color:orange;
