@@ -60,7 +60,8 @@ body{
     margin-bottom: 30px;
     font-weight: 500;
 }
-.inf-container>.items > a {
+/* .sub-button */
+.sub-button {
     background: #E02C6D;
     color: white;
     padding: 12px;
@@ -136,6 +137,35 @@ body{
     text-decoration: none;
     color: #E02C6D;
 }
+
+/*  */
+
+.wild{
+    margin-top: 80px;
+}
+.wild-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wild-container .items{
+    width: 50%;
+}
+.wild-container .items img{
+    height: 250px;
+    width: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+.wild-container>.items > h2{
+    font-size: 50px;
+    margin: 0;
+}
+.wild-container>.items > p {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
 /* @media (max-width:480px) {
     .container{
         width: 440px;
