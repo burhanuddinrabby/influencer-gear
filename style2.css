@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px) {
+/* All element */
+body{
+    width: 480px;
+}
+.container{
+    width: 432px;
+    margin: auto;
+}
+/* heading */
+
+.menu-item li{
+    margin: 0 5px;
+}
+/* ----Influencer Admit---- */
+.inf-container{
+    flex-direction: column-reverse;
+}
+.inf-container>.items > h2{
+   font-size: 1.7em;
+}
+/* .sub-button */
+.sub-button {
+    width:180px;
+}
+.inf-container>.items img{
+    height: 90%;
+    width: 90%;
+}
+
+
+/* Collection section */
+.collection-items{
+    margin: 20px 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+}
+.item-container{
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*  */
+.wild-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.wild-container .items img{
+    margin: auto;
+}
+}
